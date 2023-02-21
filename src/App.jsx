@@ -35,11 +35,11 @@ const App = () => (
         <Stats />
         <Buisness />
         <Billing />
-        <CTA />
+        <Card />
         <Testimonials />
+        <CTA />
         <FeedBack />
         <Clients />
-        <Card />
         <Footer />
       </div>
     </div>
