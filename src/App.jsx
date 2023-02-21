@@ -38,7 +38,6 @@ const App = () => (
         <Card />
         <Testimonials />
         <CTA />
-        <FeedBack />
         <Clients />
         <Footer />
       </div>
