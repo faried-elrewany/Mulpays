@@ -12,7 +12,7 @@ const NavBar = () => {
         {navLinks.map((nav, idx) => (
           <li
             key={nav.id}
-            className={`font-poppins font-normal cursor-pointer text-[16px] text-white gap-10 ${(idx =
+            className={`font-poppins font-normal cursor-pointer text-[16px] text-white gap-10 hover:text-secondary ${(idx =
               idx === navLinks.length - 1 ? "" : "mr-10")}`}
           >
             <a href={`#${nav.id}`} className="">
@@ -40,7 +40,7 @@ const NavBar = () => {
             {navLinks.map((nav, idx) => (
               <li
                 key={nav.id}
-                className={`font-poppins font-normal cursor-pointer text-[16px] text-white gap-10 ${(idx =
+                className={`font-poppins font-normal cursor-pointer text-[16px] text-white gap-10 hover:text-secondary ${(idx =
                   idx === navLinks.length - 1 ? "" : "mb-4")}`}
               >
                 <a href={`#${nav.id}`} className="">
