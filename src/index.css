@@ -12,12 +12,15 @@
     #11101d 91.61%
   );
   --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+  --navbar-shadow: 5px 5px 20px -10px #bef3f5;
 }
 
 * {
   scroll-behavior: smooth;
 }
-
+.navbar-shadow {
+  box-shadow: var(--navbar-shadow);
+}
 .text-gradient {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,
